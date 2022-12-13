@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Keep on Flowing</title>
+        <!-- css style sheet -->
+        <link rel="stylesheet" href="style.css">
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
+        <!-- cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- view port meta tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <header>
+            <ul class="nav-bar">
+                <li>
+                    <div class="site-title">
+                        <a href="index.html">
+                            <h2>Keep On Flowing</h2>
+                            <p class="sub-title">Introspection & Growth</p>
+                        </a>
+                    </div>
+                </li>
+            
+                <li class="nav-btns hidden"><a href="portfolio.html">Portfolio</a></li>
+                <li class="nav-btns hidden"><a href="journal.html">Journal</a></li>
+                <li class="nav-btns hidden"><a href="index.html">About</a></li>
+                <li class="social-media-desktop">
+                    <!-- twittter icon -->
+                    <a href="https://twitter.com/li_jack0707" target=”_blank”><i class="fa-brands fa-twitter"></i></a>
+                </li>
+            
+                <li>
+                    <div class="hamburger-btn" id="hamburger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </li>
+            </ul>
+
+            <nav class="nav-container hidden" id="nav-container"> 
+            </nav>
+        </header> 
+                   
+        <div class = "container">
+            <h2 class="text-centered greetings-text">Hi! My name is Jack and welcome to my learning journal.</h2>
+            <div class = "hero-section">
+                
+                <section>
+                    <div class = "profile-container">
+                    </div>
+                </section>
+            
+                <section class = "profile-text">
+                    
+                    <p>I’m an aspiring web developer and a storyteller.</p>
+                    <p>I speak Mandarin, English, Spanish, and Japanese. 
+                    <p>Here, I reflect and share lessons I've learned along my journey in web development and self-betterment.</p>
+                </section>
+            </div>
+
+            <div class ="main-section">
+
+                <section class = "profile-text text-was">
+                    <h2 class="topic-title">I was ...</h2>
+                    <ol>
+                        <li>Born in Hubei Province, China</li>
+                        <li>Grew up in Toronto, Canada</li>
+                        <li>Worked in Fukuoka, Japan</li>
+                    </ol>
+                </section>
+            
+                <section class = "profile-text text-believe"> 
+                    <h2 class="topic-title">I believe ...</h2>
+                    <ul>
+                        <li> We can create the life we want</li>
+                        <li> Consistent self-improvement is the key</li>
+                        <li> The best time to change is now</li>
+                    </ul>
+                </section>
+                
+                <section class = "profile-text text-interest">   
+                    <h2 class="topic-title">I'm interested in ...</h2>
+                    <ul>
+                        <li>World History. Language Aquisition.</li>
+                        <li>Science. Religions.</li>
+                        <li>Zen. Spirituality.</li>
+                    </ul>
+                </section>
+
+            </div>
+        
+            <section class = "profile-text">
+                <div class = "mission text-centered">
+                    <h1>My Mission</h1>      
+                    <p>To challenge and prove myself wrong that I have what it takes to be a good programmer despite my beliefs.</p> 
+                    <p>And in doing so, inspire others to do the same. </p>
+                </div>    
+            </section>
+        </div>       
+        
+         <div >
+            <i class="fa-brands fa-space-awesome top-btn" onclick="scrollToTop()" id="top-btn"></i>
+        </div>
+  
+            <main class="grid-container">
+                <article class="recent-article">
+                    <img src="images/blog-image-01.png" class="article-img" alt="">
+                    <h2 class="article-title">Before: Adopting a Healthy Mindset</h2>
+                    <p class="article-info">JULY 23, 2022</p>
+                    <p class="article-body">It's difficult to understate the importance of adopting a healthy mindset before taking
+                        on any subject matter.</p>
+                </article>
+            
+                <article class="recent-article">
+                    <img src="images/blog-image-02.png" class="article-img" alt="">
+                    <h2 class="article-title">During: Maintaining a System of Accountability</h2>
+                    <p class="article-info">JULY 23, 2022</p>
+                    <p class="article-body">Once I got started. I created systems to hold myself accountable; System that would
+                        prevent me
+                        from falling below a certain standard necessary for growth.
+                    </p>
+                </article>
+            
+                <article class="recent-article">
+                    <img src="images/blog-image-03.png" class="article-img" alt="">
+                    <h2 class="article-title">After: Growing Into a Larger System</h2>
+                    <p class="article-info">JULY 23, 2022</p>
+                    <p class="article-body">My gut feeling tells me that I'm on to something.
+                        I imagine frontend development will become a key part of a larger system that I'm building towards.
+                        It's a step in the right direction.
+                    </p>
+                </article>
+            </main>
+    <footer class="footer">
+        <h3>Keep On Flowing</h3>
+        <p>Copyright ©2022</p>
+    </footer>
+
+    <script src="index.js" type="module"></script>
+    </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>Keep on Flowing</title>
+    <!-- css style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- view port meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <ul class="nav-bar">
+            <li>
+                <div class="site-title">
+                    <a href="index.html">
+                        <h2>Keep On Flowing</h2>
+                        <p class="sub-title">Introspection & Growth</p>
+                    </a>
+                </div>
+                </div>
+            </li>
+        
+            <li class="nav-btns hidden"><a href="portfolio.html">Portfolio</a></li>
+            <li class="nav-btns hidden"><a href="journal.html">Journal</a></li>
+            <li class="nav-btns hidden"><a href="index.html">About</a></li>
+            <li class="social-media-desktop">
+                <a href="https://twitter.com/li_jack0707" target=”_blank”><i class="fa-brands fa-twitter"></i></a>
+                
+            </li>
+        
+            <li>
+                <div class="hamburger-btn" id="hamburger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </li>
+        </ul>
+
+        <nav class="nav-container hidden" id="nav-container">
+        </nav>
+
+    </header>
+
+    <div class="container">
+        <a class="block" href="featured-article.html">
+            <article class="featured-article">
+                <h1 class="article-title">Journey: Becoming a self-taught Web Developer</h1>
+                <p class="article-info">Dec 1, 2022</p>
+                <p class="article-info">After many failed sporadic attempts to learn programming after high school, I was discouraged and convinced
+                myself that I did not have the intellect to be a decent programmer. But as paradoxical as this may sound, deep down,
+                I refused to believe that I ... </p>
+            </article>
+        </a>
+<!-- featured hero article -->
+            <main class="grid-container">
+                <article class="recent-article">
+                    <img src="images/blog-image-01.png" class="article-img"alt="">
+                    <h2 class="article-title">Before: Adopting a Healthy Mindset</h2>
+                    <p class="article-info">JULY 23, 2022</p>
+                    <p class="article-body">It's difficult to understate the importance of adopting a healthy mindset before taking on any subject matter.</p>
+                </article>
+
+                <article class="recent-article">
+                    <img src="images/blog-image-02.png" class="article-img"alt="">
+                    <h2 class="article-title">During: Maintaining a System of Accountability</h2>
+                    <p class="article-info">JULY 23, 2022</p>
+                    <p class="article-body">Once I got started. I created systems to hold myself accountable; System that would prevent me
+                        from falling below a certain standard necessary for growth.
+                    </p>
+                </article>
+
+                <article class="recent-article">
+                    <img src="images/blog-image-03.png" class="article-img"alt="">
+                    <h2 class="article-title">After: Growing Into a Larger System</h2>
+                    <p class="article-info">JULY 23, 2022</p>
+                    <p class="article-body">My gut feeling tells me that I'm on to something.
+                         I imagine frontend development will become a key part of a larger system that I'm building towards.
+                         It's a step in the right direction. 
+                    </p>
+                </article>
+            </main>
+            
+            <section class="hidden-section" id="hidden-section">
+
+                <article class="recent-article">
+                    <img src="images/blog-image-04.png" class="article-img" alt="">
+                    <h2 class="article-title">Blog 3</h2>
+                    <p class="article-info">JULY 23, 2022</p>
+                    <p class="article-body">After several months of learning in the Frontend Developer Career Path, I've made the big
+                        jump
+                        over to the Bootcamp to
+                        get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+                </article>
+                
+                <article class="recent-article">
+                    <img src="images/blog-image-05.png" class="article-img" alt="">
+                    <h2 class="article-title">Blog 3</h2>
+                    <p class="article-info">JULY 23, 2022</p>
+                    <p class="article-body">After several months of learning in the Frontend Developer Career Path, I've made the big
+                        jump
+                        over to the Bootcamp to
+                        get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+                </article>
+                
+                <article class="recent-article">
+                    <img src="images/blog-image-06.png" class="article-img" alt="">
+                    <h2 class="article-title">Blog 3</h2>
+                    <p class="article-info">JULY 23, 2022</p>
+                    <p class="article-body">After several months of learning in the Frontend Developer Career Path, I've made the big
+                        jump
+                        over to the Bootcamp to
+                        get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+                </article>
+
+            </section>
+
+        <button class="view-more-btn" id="view-more-btn" onclick="viewMore()">View More</button>
+    </div>
+        
+ 
+        <footer class="footer">
+            <h3>Keep On Flowing</h3>
+            <p>Copyright ©2022</p>
+        </footer>
+        
+        <div>
+            <i class="fa-brands fa-space-awesome top-btn" onclick="scrollToTop()" id="top-btn"></i>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
