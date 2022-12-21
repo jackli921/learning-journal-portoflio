@@ -1,7 +1,7 @@
-# Journal & Porfolio Site 
+# Learning Journal & Porfolio Site 
 A responsive learning journal & portfolio site built with Mobile First Design philosophy in mind using flexbox, media queries, and grid  
 
-[Live Site](https://unique-toffee-313a21.netlify.app/)
+[Live Site](https://monumental-taffy-7154f7.netlify.app/portfolio.html)
 
 ## Intro
 A training project built to consolidate key concepts I learned from:
@@ -14,6 +14,6 @@ A training project built to consolidate key concepts I learned from:
 - Scroll to top rocket icon
 
 ## Demo
- ![](demo.gif)
+ ![](/images/demo.gif)
 
 
