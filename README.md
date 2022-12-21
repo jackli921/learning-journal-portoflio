@@ -14,7 +14,6 @@ A training project built to consolidate key concepts I learned from:
 - Scroll to top rocket icon
 
 ## Demo
- ![https://gilded-cheesecake-3b8383.netlify.app/](demo.gif)
-
+ ![](demo.gif)
 
 
