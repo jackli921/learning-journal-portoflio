@@ -1,5 +1,5 @@
 # Learning Journal & Porfolio Site 
-A responsive learning journal & portfolio site built with Mobile First Design philosophy in mind using flexbox, media queries, and grid  
+A responsive site built with Mobile First Design philosophy in mind using flexbox, media queries, and grid  
 
 [Live Site](https://monumental-taffy-7154f7.netlify.app/portfolio.html)
 
